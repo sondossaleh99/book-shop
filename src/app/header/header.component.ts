@@ -12,12 +12,4 @@ export class HeaderComponent {
   constructor (private router: Router) {}
   ngOnInit() {
   }
-
-  selectRecipe () {
-    this.router.navigate(['/recipes']);
-  }
-
-  selectShoppingList () {
-    this.router.navigate(['/shopping-list']);
-  }
 }

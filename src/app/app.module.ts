@@ -12,6 +12,8 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { FormsModule } from '@angular/forms';
 import { DropdwounDirective } from './directive/dropdwoun.directive';
 import { AppRoutingModule } from './app-routing.module';
+import { SelectRecipeComponent } from './recipes/select-recipe/select-recipe.component';
+import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,9 @@ import { AppRoutingModule } from './app-routing.module';
     RescipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    DropdwounDirective
+    DropdwounDirective,
+    SelectRecipeComponent,
+    RecipeEditComponent
   ],
   imports: [
     BrowserModule,
